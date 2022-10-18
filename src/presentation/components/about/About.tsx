@@ -35,7 +35,6 @@ const About = () => {
               <small>8º Period</small>
             </article>
           </div>
-
           <p>
             I'm a technology enthusiast with a positive mindset and a wild
             desire to learn new things. Since beginning my journey as a
