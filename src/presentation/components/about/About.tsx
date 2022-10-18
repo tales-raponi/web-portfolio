@@ -42,7 +42,6 @@ const About = () => {
             Front-End Student, I have continuously worked to improve my skills
             and optimize my projects more and more.
           </p>
-
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
