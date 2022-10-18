@@ -47,7 +47,7 @@
 .about__card:hover {
     background: radial-gradient(ellipse at top, #ffffff, transparent),
     radial-gradient(ellipse at bottom, #ffffff, transparent);;
-    border-color: var(--color-primary-variant);
+    border-color: transparent;
     color: black;
 }
 
