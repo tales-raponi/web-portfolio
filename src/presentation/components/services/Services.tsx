@@ -4,7 +4,7 @@ import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <section id={"services"}>
+    <section id={"services"} className={"section__services"}>
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
@@ -48,11 +48,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className={"service__list-icon"} />
-              <p>Agile development (Scrum and Kanban methodology).</p>
+              <p>Agile development.</p>
             </li>
             <li>
               <BiCheck className={"service__list-icon"} />
-              <p>Clean Code, Clean Architecture, and Design Patterns.</p>
+              <p>Clean Code.</p>
             </li>
           </ul>
         </article>
@@ -79,11 +79,19 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className={"service__list-icon"} />
-              <p>Full responsive designs for mobile and web.</p>
+              <p>Full responsive</p>
             </li>
             <li>
               <BiCheck className={"service__list-icon"} />
               <p>Native Base.</p>
+            </li>
+            <li>
+              <BiCheck className={"service__list-icon"} />
+              <p>Clean Architecture.</p>
+            </li>
+            <li>
+              <BiCheck className={"service__list-icon"} />
+              <p>Design Patterns.</p>
             </li>
           </ul>
         </article>

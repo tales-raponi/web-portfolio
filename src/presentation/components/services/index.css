@@ -47,16 +47,20 @@
 
 .service__list-icon {
     color: var(--color-primary);
-    margin-top: .2rem;
+    margin-top: 2px;
 }
 
 .service__list p {
     font-size: 0.9rem;
 }
 
+.section__services {
+    margin-top: none;
+}
+
 /* media queries (medium devices)*/
 @media screen and (max-width: 1024px) {
-    .service__container {
+    .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
@@ -68,8 +72,12 @@
 
 /* media queries (small devices)*/
 @media screen and (max-width: 600px) {
-    .service__container{
+    .services__container{
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    .section__services {
+        margin-top: 15rem;
     }
 }
