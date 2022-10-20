@@ -16,14 +16,11 @@
     background: radial-gradient(ellipse at top, var(--color-primary), transparent),
     radial-gradient(ellipse at bottom, var(--color-primary), transparent);;
     border-color: transparent;
-    color: rgb(0, 0, 0);
 }
 
 .service:hover {
-    background: radial-gradient(ellipse at top, #ffffff, transparent),
-    radial-gradient(ellipse at bottom, #ffffff, transparent);;
+    background: radial-gradient(ellipse at bottom, var(--color-primary), transparent);
     border-color: transparent;
-    color: black;
 }
 
 .service__head {

@@ -21,14 +21,12 @@
 }
 
 .contact__option:hover{
-    background: radial-gradient(ellipse at top, #ffffff, transparent),
-    radial-gradient(ellipse at bottom, #ffffff, transparent);;
+    background: radial-gradient(ellipse at bottom, var(--color-primary), transparent);
     border-color: transparent;
-    color: black;
 }
 
-.contact__option:hover > a {
-    color: black;
+.contact__option > a:hover {
+    color: white;
 }
 
 .contact__option-icon {
