@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../../assets/cv.png";
+import CV from "../../../assets/Curriculum-1.png";
 
 const Buttons = () => {
   return (

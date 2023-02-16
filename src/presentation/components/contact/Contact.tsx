@@ -28,8 +28,8 @@ const Contact = () => {
 
   return (
     <section id={"contact"} className={"section__container__contact"}>
-      <h5>Get In Touch!</h5>
-      <h2>Contact Me</h2>
+      <h5>Entre em contato!</h5>
+      <h2>Contate-me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -38,7 +38,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>raponi13@gmail.com</h5>
             <a href="mailto:raponi13@gmail.com" target={"_blank"}>
-              Send a Message
+              Enviar Mensagem
             </a>
           </article>
           <article className="contact__option">
@@ -49,7 +49,7 @@ const Contact = () => {
               href="https://api.whatsapp.com/send?phone=5535988941009"
               target={"_blank"}
             >
-              Send a Message
+              Enviar Mensagem
             </a>
           </article>
         </div>
@@ -57,18 +57,18 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Seu nome completo"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="email" name="email" placeholder="Seu Email" required />
           <textarea
             name="message"
             rows={7}
-            placeholder="Your Message"
+            placeholder="Sua Mensagem"
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Enviar Mensagem
           </button>
         </form>
       </div>
